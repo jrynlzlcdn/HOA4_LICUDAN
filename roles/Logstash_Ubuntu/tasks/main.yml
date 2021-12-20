@@ -1,0 +1,6 @@
+---
+- name: Start and Enable Logstash (Ubuntu)
+  service:
+    name: logstash
+    state: started
+    enabled: yes
